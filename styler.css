@@ -1,0 +1,399 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Segoe UI",Arial, Helvetica, sans-serif;
+    background:#eee1dd;
+}
+
+header{
+    background:#FF6B00;
+    color:rgb(23, 23, 23);
+    display: flex;
+    padding:30px;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.barra-pesquisa{
+    display: flex;
+    width: 450px;
+
+}
+
+.barra-pesquisa input{
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    font-size: 15px;
+}
+
+.barra-pesquisa button {
+    padding: 0 18px;
+    border: none;
+    background-color: rgb(217, 83, 6);
+    color: rgb(251, 247, 247);
+    border-radius: 0 8px 8px 0;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.cadastro{
+    background-color: #504d4b;
+    color: white;
+    padding: 10px 17px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+nav{
+    background:#2D2D2D;
+}
+nav ul{
+    justify-content:center;
+    list-style:none;
+    display: flex;
+}
+
+nav li{
+    padding:15px;
+}
+
+nav a{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#FF6B00;
+}
+
+.empresa{
+    background-color:#242424;
+    display: flex;
+    padding: 65px;
+    margin: 75px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px gray;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.empresa-text h2{
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.empresa-text p{
+    color: #dadada;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 650px;
+}
+
+.empresa img{
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.botao-empresa{
+    background-color: #ea7522;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+.caixas-fileira{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.caixa{
+    background-color:#242424;
+    padding: 30px;
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa img{
+    width: 150px;
+    height: 130px;
+}
+
+#mlr{
+    width: 190px;
+    height: 120px;
+}
+
+.caixa h3{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.caixa p{
+    padding: 15px;
+    color: #dadada;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 280px;
+    color:rgb(0, 0, 0);
+}
+
+.caixa a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.caixa p:hover{
+    color:#FF6B00;
+}
+
+footer{
+    background-color: #FF6B00;
+    padding: 15px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.foto-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.foto-contato img{
+    width: 55px;
+    height: 55px;
+}
+
+footer p{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+/*produto.html*/
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.produto{
+    background-color: #242424;
+    width: 280px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.produto h3{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.produto p{
+    color: #dadada;
+    text-align: center;
+}
+.botao{
+    background-color: #ea7522;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrinho{
+    background-color: #504d4b;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+.botoes{
+    display: flex;
+    gap: 6px;
+}
+
+/*sobre.html*/
+.sobre{
+    background-color:#242424;
+    padding: 65px;
+    margin: 75px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px gray;
+    text-align: center;
+}
+
+.sobre-empresa h2{
+    color: white;
+    font-size: 32px;
+    padding: 25px;
+    text-align: center;
+}
+
+.sobre-empresa p{
+    color: #dadada;
+    margin: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*promooes.html*/
+
+.desconto{
+    text-decoration: line-through;
+    color: #999999;
+}
+
+#off{
+    font-weight: bold;
+    color: #ea7522;
+}
+
+#valor{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*contatos.html*/
+
+.formulario{
+    background-color:#242424;
+    padding: 65px;
+    margin: 75px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px gray;
+    text-align: center;
+}
+
+.formulario h2{
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.formulario p{
+    font-size: 20px;
+    color: #dadada;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.formulario-contato{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.formulario-contato label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario-contato input{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.formulario-contato textarea{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#envia{
+    background-color: #ea7522;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#reseta{
+    background-color: #504d4b;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    font-size: 20px;
+}
